@@ -1,0 +1,48 @@
+=========================================
+   SHELL SCRIPTING TASK
+=========================================
+
+[INFO] User      : dc
+[INFO] Hostname  : Ubuntu-dc
+[INFO] Date/Time : Sun Jan 25 12:02:39 PM IST 2026
+
+========== SYSTEM INFORMATION ==========
+
+--- Uptime ---
+ 12:02:39 up 50 min,  1 user,  load average: 0.43, 0.50, 0.53
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p6   98G   51G   43G  54% /
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       2.7Gi       9.0Gi       528Mi       4.4Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+--- Logged In Users ---
+dc       seat0        2026-01-25 11:12 (login screen)
+dc       :0           2026-01-25 11:12 (:0)
+
+========== CONDITIONAL CHECK ==========
+[OK] Disk usage is under control: 54%
+
+========== LOOP DEMONSTRATION ==========
+For loop example:
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+
+While loop example:
+Count is: 1
+Count is: 2
+Count is: 3
+
+========== LOG BACKUP & CLEANUP ==========
+[INFO] Creating backup at: /home/dc/log_backup/logs_backup_20260125_120239.tar.gz
+[ERROR] Log backup failed (permission issue likely).
+[INFO] Removing backups older than 7 days...
+[INFO] Cleanup completed.
+========== SCRIPT EXECUTION FINISHED ==========
